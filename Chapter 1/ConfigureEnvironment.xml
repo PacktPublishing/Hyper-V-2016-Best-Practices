@@ -1,0 +1,4 @@
+<settings pass="specialize"><component language="neutral" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35" 
+processorArchitecture="amd64" name="Microsoft-Windows-Shell-Setup"><TimeZone>W. Europe Standard Time</TimeZone></component>
+</settings><settings pass="oobeSystem"><component lan-guage="neutral" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35" proces-sorArchitecture="amd64" name="Microsoft-Windows-Shell-Set-up"><UserAccounts><AdministratorPassword><Value>UABAAHMAcwB3ADAAcgBkAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIAUABhAH-MAcwB3AG8AcgBkAA==</Value><PlainText>false</PlainText></AdministratorPassword></UserAccounts></component></settings>

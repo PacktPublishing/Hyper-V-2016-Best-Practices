@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicing>
+  <package action="configure">
+    <assemblyIdentity language="" publicKeyTo-ken="31bf3856ad364e35" processorArchitecture="amd64" name="Microsoft-Windows-ServerStandardEdition" ver-sion="6.3.9600.16384" />
+    <selection name="Microsoft-Hyper-V-Common-Drivers-Package" state="true" />
+    <selection name="Microsoft-Hyper-V-Guest-Integration-Drivers-Package" state="true" />
+    <selection name="Microsoft-Hyper-V-Server-Drivers-Package" state="true" />
+    <selection name="Microsoft-Hyper-V-ServerEdition-Package" state="true" />
+  </package>
+  <package action="configure">
+    <assemblyIdentity language="" publicKeyTo-ken="31bf3856ad364e35" processorArchitecture="amd64" name="Microsoft-Windows-ServerCore-Package" ver-sion="6.3.9600.16384" />
+    <selection name="Microsoft-Hyper-V" state="true" />
+    <selection name="Microsoft-Hyper-V-Offline" state="true" />
+    <selection name="Microsoft-Hyper-V-Online" state="true" />
+    <selection name="VmHostAgent" state="true" />
+    <selection name="AdminUI" state="true" />
+    <selection name="ServerManager-Core-RSAT" state="true" />
+    <selection name="ServerManager-Core-RSAT-Feature-Tools" state="true" />
+    <selection name="ServerManager-Core-RSAT-Role-Tools" state="true" />
+  </package>
+</servicing>

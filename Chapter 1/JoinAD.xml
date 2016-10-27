@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lan-guage="neutral" versionScope="nonSxS" publicKeyTo-ken="31bf3856ad364e35" processorArchitecture="amd64" name="Microsoft-Windows-UnattendedJoin">
+  <Identification>
+    <Credentials>
+      <Domain>int.homecloud.net</Domain>
+      <Password>Hannover96</Password>
+      <Username>joindomain</Username>
+    </Credentials>
+    <JoinDomain>int.homecloud.net</JoinDomain>
+    <MachineObjectOU>OU=Hyper-V,DC=int,DC=homecloud,DC=net</MachineObjectOU>
+  </Identification>
+</component>

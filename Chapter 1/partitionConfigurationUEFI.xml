@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Microsoft-Windows-Setup" processorArchi-tecture="amd64" publicKeyToken="31bf3856ad364e35" lan-guage="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DiskConfiguration>
+    <Disk wcm:action="add">
+      <CreatePartitions>
+        <CreatePartition wcm:action="add">
+          <Order>2</Order>
+          <Size>100</Size>
+          <Type>EFI</Type>
+        </CreatePartition>
+        <CreatePartition wcm:action="add">
+          <Order>3</Order>
+          <Extend>false</Extend>
+          <Type>MSR</Type>
+          <Size>128</Size>
+        </CreatePartition>
+        <CreatePartition wcm:action="add">
+          <Order>4</Order>
+          <Extend>true</Extend>
+          <Type>Primary</Type>
+        </CreatePartition>
+        <CreatePartition wcm:action="add">
+          <Size>350</Size>
+          <Type>Primary</Type>
+          <Order>1</Order>
+        </CreatePartition>
+      </CreatePartitions>
+      <ModifyPartitions>
+        <ModifyPartition wcm:action="add">
+          <Active>false</Active>
+          <Format>NTFS</Format>
+          <Label>Bitlocker</Label>
+          <Order>1</Order>
+          <PartitionID>1</PartitionID>
+        </ModifyPartition>
+        <ModifyPartition wcm:action="add">
+          <Letter>C</Letter>
+          <Label>HostOS</Label>
+          <Order>3</Order>
+          <PartitionID>3</PartitionID>
+          <Format>NTFS</Format>
+        </ModifyPartition>
+        <ModifyPartition wcm:action="add">
+          <Order>2</Order>
+          <PartitionID>2</PartitionID>
+          <Label>EFI</Label>
+          <Format>FAT32</Format>
+          <Active>false</Active>
+        </ModifyPartition>
+      </ModifyPartitions>
+      <DiskID>0</DiskID>
+      <WillWipeDisk>true</WillWipeDisk>
+    </Disk>
+  </DiskConfiguration>
+</component>

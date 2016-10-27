@@ -1,0 +1,1 @@
+<ImageInstall><OSImage><InstallFrom><MetaData wcm:action="add"><Key>/Image/Name</Key><Value>Windows Server 2016 Technical Preview 5 SERV-ERSTAND-ARD</Value></MetaData></InstallFrom><InstallTo><DiskID>0</DiskID><PartitionID>2</PartitionID></InstallTo></OSImage></ImageInstall>
